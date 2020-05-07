@@ -11,12 +11,13 @@ $(".testimonials-carousel").owlCarousel({
   items: 1
 });
 
-// plane change js
+// Plan change js
 
-var isMonthly = true;
-var currentServing = 25;
-var prevId = 'b1';
+var isMonthly = true;// true if slider is checked
+var currentServing = 25; // default serving
+var prevId = 'b1'; // button id 
 
+// called when button pressed
 function changePlan(serving, id = '') {
   var candyPrice = isMonthly ? serving * 2 : serving*12;
   var lollipopPrice = isMonthly ? serving : serving * 0.5*12;
@@ -31,7 +32,7 @@ function changePlan(serving, id = '') {
     removeClass(id);
 
 }
-// change ui of button so that selected serving is highlighted
+// Change ui of buttons so that selected serving is highlighted
 function removeClass(id) {
   $(`#${prevId}`).removeClass('btn-primary');
   $(`#${prevId}`).addClass('btn-outline-primary');
@@ -40,6 +41,7 @@ function removeClass(id) {
   prevId = id;
 }
 
+// on slider change
 $("#slider").change(function () {
   isMonthly = this.checked;
   changePlan(currentServing);
