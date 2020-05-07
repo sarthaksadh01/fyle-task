@@ -34,7 +34,7 @@
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s</p>
           <div>
-            <a href="#" class="custom-btn btn btn-primary ">Primary CTA</a>
+            <a href="#" class="mb-2 custom-btn btn btn-primary ">Primary CTA</a>
             <a href="#" class="text-dark custom-btn btn btn-outline-primary">Secondary CTA</a>
           </div>
 
@@ -187,7 +187,7 @@
               </div>
 
               <div class="testimonial-item">
-                <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/review.jpg" class="testimonial-img" alt="">
                 <h3>Raja Ram</h3>
                 <h4>Tip World</h4>
                 <p class="text-muted">
@@ -198,7 +198,7 @@
               </div>
 
               <div class="testimonial-item">
-                <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/review.jpg" class="testimonial-img" alt="">
                 <h3>Raja Ram</h3>
                 <h4>Tip World</h4>
                 <p class="text-muted">
@@ -209,7 +209,7 @@
               </div>
 
               <div class="testimonial-item">
-                <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/review.jpg" class="testimonial-img" alt="">
                 <h3>Raja Ram</h3>
                 <h4>Tip World</h4>
                 <p class="text-muted">
