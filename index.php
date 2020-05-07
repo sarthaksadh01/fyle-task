@@ -35,7 +35,7 @@
             industry's standard dummy text ever since the 1500s</p>
           <div>
             <a href="#" class="mb-2 custom-btn btn btn-primary ">Primary CTA</a>
-            <a href="#" class="text-dark custom-btn btn btn-outline-primary">Secondary CTA</a>
+            <a href="#" class="mb-2 text-dark custom-btn btn btn-outline-primary">Secondary CTA</a>
           </div>
 
         </div>
