@@ -1,5 +1,4 @@
 # Fyle Task
-## [Live Demo](https://fyle-task-sarthak.herokuapp.com)
 ## Folders
 1. Assets (contians all images,js and css)
 2. vendor (opensource framework used) 
